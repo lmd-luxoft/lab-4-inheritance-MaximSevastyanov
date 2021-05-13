@@ -41,6 +41,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ChessFigure.cs" />
+    <Compile Include="Rook.cs" />
     <Compile Include="TestClass.cs" />
   </ItemGroup>
   <ItemGroup>

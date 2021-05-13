@@ -12,7 +12,8 @@ namespace Chess
         [Test]
         public void RookShouldBeCorrectMove()
         {
-            ChessFigure figure = new ChessFigure(ChessFigure.Type.ROOK, "E2");
+            ChessFigure figure = new Rook(ChessFigure.Type.ROOK, "E2");
+            Assert.AreEqual(true, figure.CheckCoord("C2"));
             Assert.AreEqual(true,figure.Move("C2"));
         }
         [Test]
